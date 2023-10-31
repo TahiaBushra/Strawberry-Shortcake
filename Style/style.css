@@ -1,0 +1,82 @@
+body{
+    background-image: url(./Pink\ With\ \ White\ Dots\ Large.jpg);
+    border-radius: 5px;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.pic{
+    width: auto;
+    height: 280px ;
+    border-radius: 200px;
+    margin: 30px;
+    border: 2px solid deeppink;
+}
+.pic:hover{
+    width: auto;
+    height: 300px ;
+    box-shadow: 5px 5px 10px darkred;
+    border: 3px dotted deeppink;
+}
+nav ul {
+    display: flex;
+    list-style: none;
+    justify-content: space-between;
+}
+nav li{
+    margin: 30px 50px 15px 0px;
+}
+.first-btn{
+    background-color: rgb(238, 255, 139);
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    color:crimson;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    text-decoration: none;
+    background-image: url(./colorful-flowers-pattern-background-vector_893055-1587.avif);
+}
+.first-btn:hover{
+    box-shadow: 2px 2px 10px darkred;
+    color: deeppink;
+    font-family: 'Times New Roman', Times, serif;
+    border: 2px dashed rgb(238, 12, 106);
+}
+.info{
+    border: 5px solid rgb(223, 129, 252);
+    border-radius: 10px;
+    margin-top: 30px;
+    background-image: url(./colorful-flowers-pattern-background-vector_893055-1587.avif);
+    height: 200px;
+    width: 600px;
+    overflow-y: scroll;   
+}
+.info:hover{
+    box-shadow: 2px 2px 10px rgb(42, 67, 204);
+}
+.info-box{
+    display: flex;
+    justify-content: center;
+}
+h3{
+    text-align: center;
+    font-style: italic;
+    text-decoration: underline wavy;
+    color:rgb(248, 24, 69);  
+}
+h3:hover{
+    color: coral;
+    text-shadow: 2px 2px 10px coral;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.about-SS{
+    padding: 0px 50px 20px 50px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(240, 109, 109);
+}
+.about-SS:hover{
+    color: darkred;
+    text-transform: capitalize;
+}

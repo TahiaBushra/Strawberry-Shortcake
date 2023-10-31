@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Creative Works</title>
+    <link rel="stylesheet" href="Style/style.css">
+    <style>
+        .picture {
+            margin-top: 100px;
+            display: flex;
+            justify-content: center;
+        }
+
+        .image {
+            display: block;
+            width: auto;
+            height: 300px;
+        }
+
+        .img-1 {
+            border: none;
+            position: relative;
+            z-index: 2;
+            translate: 130px;
+            transition: transform 5s ;
+        }
+
+        .img-1:hover {
+            transform: translateY(50px);
+        }
+        .img-2 {
+            position: relative;
+            z-index: 1;
+            top: -100px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <img class="pic" src="./Style/ssc.jpg" alt="">
+            <ul>
+                <li><a class="first-btn" href="index.html">Home</a></li>
+                <li><a class="first-btn" href="end.html"> Fun Facts </a></li>
+            </ul>
+        </nav>
+        <section>
+            <div class="info-box">
+                <div class="info">
+                    <h3>"Strawbery Shortcake"</h3>
+                    <p class="about-SS">"Strawberry Shortcake" is a sweet but spunky little redhead with enough optimism
+                        to fill a strawberry field. She believes things are growing better all the time and as the
+                        unofficial berry princess of Strawberryland, she puts her heart and soul into seeing that things
+                        improve for everyone she meets. She shares her berry bungalow with her baby sister Apple
+                        Dumplin', her sarcastic cat Custard, and her mischievous dog named Pupcake. Strawberry is also
+                        quite adventurous, so it's no surprise that she has friends from other lands both near and far.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </header>
+    <section class="picture">
+        <div>
+            <img src="./Style/strawberry-removebg-preview.png" alt="" class="image img-1">
+            <img src="./Style/download-removebg-preview.png" alt="" class="image img-2">
+        </div>
+    </section>
+</body>
+
+</html>
