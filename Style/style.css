@@ -59,7 +59,6 @@ nav li{
 .info-box{
     display: flex;
     justify-content: center;
-    top:-300px;
 }
 h3{
     text-align: center;

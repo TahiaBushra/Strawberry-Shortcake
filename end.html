@@ -7,40 +7,67 @@
     <title>Home Content</title>
     <link rel="stylesheet" href="./Style/style.css">
     <style>
-        .images{
+        .images {
             height: 200px;
             width: auto;
             border-radius: 20px;
         }
-        .images:hover{
+
+        .images:hover {
             box-shadow: 2px 2px 10px rgb(146, 6, 123);
         }
-        .information{
+
+        .information {
             display: grid;
-            grid-template-columns: repeat(3,1fr);
+            grid-template-columns: repeat(3, 1fr);
             margin-top: 50px;
         }
-        .description{
+
+        .description {
             border: 2px solid rgb(223, 129, 252);
             border-radius: 10px;
             margin: 20px;
             padding: 20px;
             background-image: url(./Style/mugs-cakes-pattern_23-2147508648.avif);
         }
-        .description:hover{
+
+        .description:hover {
             box-shadow: 2px 2px 10px rgb(99, 23, 86);
             border: 3px dotted rgb(221, 104, 128);
         }
-        .para{
+
+        .para {
             color: darkred;
-            font-family:'Courier New', Courier, monospace;
+            font-family: 'Courier New', Courier, monospace;
         }
-        .para:hover{
+
+        .para:hover {
             font-family: 'Times New Roman', Times, serif;
             color: rgb(255, 17, 17);
         }
+
+        .cricket {
+            height: 500px;
+            width: 500px;
+            position: relative;
+            z-index: 1;
+            translate: 350px;
+        }
+
+        .cricket2 {
+            position: relative;
+            z-index: 2;
+            translate: -130px;
+            transition: transform 2s;
+            transform: scale(0.6);
+        }
+
+        .cricket2:hover {
+            transform: translate(100px);
+        }
     </style>
 </head>
+
 <body>
     <header>
         <nav>
@@ -85,11 +112,17 @@
             </div>
             <div class="description">
                 <img class="images" style="margin-left: 35px;" src="./Style/sscfrnds3.webp">
-                <p  class="para">
+                <p class="para">
                     A hard-working young woman who runs the Berry Bitty Cafe and later, the Berry Bitty Market.
                     Strawberry Shortcake is open-minded and very kind, her guidance or opinion is sought out by many.
                 </p>
             </div>
+        </div>
+    </section>
+    <section>
+        <div>
+            <img class="cricket" src="./Style/bat-removebg-preview.png">
+            <img class="cricket2" src="./Style/ball-removebg-preview.png">
         </div>
     </section>
 </body>
